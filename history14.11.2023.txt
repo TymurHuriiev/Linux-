@@ -1,0 +1,25 @@
+   0 mkdir /home/animals
+   1 mkdir -p /home/animals/cats /home/animals/dogs /home/animals/fishs 
+   2 tree /home 
+   3 touch /home/animals/dogs/pluto
+   4 touch /home/animals/fish/nemo
+   5  touch /home/animals/cats/garfield
+   6 touch /home/animals/fishs/nemo 
+   7 tree /home 
+   8  mkdir /home/planets
+   9  touch /opt/Mercury  /opt/Venus /opt/Mars /opt/Jupiter
+  10  tree /
+  11  tree /root 
+  12  tree /opt 
+  13 history 
+  14 mv /opt/Mercury /opt/Venus /opt/Mars /opt/Jupiter /home/planets/
+  15 tree /home 
+  16  touch /tmp/adam
+  17 mkdir /home/humans
+  18 cp /tmp/adam /home/humans
+  19 touch /tmp/evA
+  20 mv /tmp/evA /opt/eve
+  21  mv /opt/eve /home/humans
+  22 tree /humans 
+  23 tree /home 
+  24 history > history14.11.2023.txt 
